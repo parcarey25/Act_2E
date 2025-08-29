@@ -288,6 +288,8 @@ public class parcarey extends javax.swing.JFrame {
             jTextField10.setText("" + player1);
         }
         
+        
+        
         else if(win1 == 5)
         {
             JOptionPane.showMessageDialog(null, "Congratulation Player 1 Wins", "RESULT", JOptionPane.INFORMATION_MESSAGE);
@@ -296,6 +298,9 @@ public class parcarey extends javax.swing.JFrame {
         {
             JOptionPane.showMessageDialog(null, "Congratulation Player 2 Wins", "RESULT", JOptionPane.INFORMATION_MESSAGE);
         }  
+
+        
+  
 
 
 
@@ -345,7 +350,12 @@ public class parcarey extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Player 2 Wins", "RESULT", JOptionPane.INFORMATION_MESSAGE);
             jTextField11.setText("" + player2);
         }
-
+        
+        
+        
+        
+        
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField10ActionPerformed

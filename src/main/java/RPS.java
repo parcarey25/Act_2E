@@ -140,15 +140,13 @@ public class RPS extends javax.swing.JFrame {
            JOptionPane.showMessageDialog(null, "Player 2 Wins", "RESULT", JOptionPane.INFORMATION_MESSAGE);
                     jTextField3.setText("" + player1);
         }
-                
-        
         else if(win1 == 0)
         {
-            JOptionPane.showMessageDialog(null, "Congratulation Player 1 Wins", "RESULT", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Congratulation Player 2 Wins", "RESULT", JOptionPane.INFORMATION_MESSAGE);
         }   
         else if(win2 == 0)
         {
-            JOptionPane.showMessageDialog(null, "Congratulation Player 2 Wins", "RESULT", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Congratulation Player 1 Wins", "RESULT", JOptionPane.INFORMATION_MESSAGE);
         }  
 
         
