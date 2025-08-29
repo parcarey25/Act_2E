@@ -292,7 +292,7 @@ public class parcarey extends javax.swing.JFrame {
         {
             JOptionPane.showMessageDialog(null, "Congratulation Player 1 Wins", "RESULT", JOptionPane.INFORMATION_MESSAGE);
         }   
-         else if(win2 == 5)
+        else if(win2 == 5)
         {
             JOptionPane.showMessageDialog(null, "Congratulation Player 2 Wins", "RESULT", JOptionPane.INFORMATION_MESSAGE);
         }  
